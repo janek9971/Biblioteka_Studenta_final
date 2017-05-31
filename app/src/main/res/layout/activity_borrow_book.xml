@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <ImageButton
+        android:id="@+id/ibtnphone"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/phone"
+        android:onClick="viaphone"/>
+
+    <TextView
+        android:id="@+id/contactbynumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skontakuj się przez telefon"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ibtnphone"
+        android:layout_marginTop="10dp" />
+
+
+    <ImageButton
+        android:id="@+id/ibtnmail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/gmail_icon"
+        android:layout_marginTop="20dp"
+        android:onClick="viamail"/>
+
+    <TextView
+        android:id="@+id/contactbymail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Skontakuj się przez mail"
+        android:gravity="center"
+        android:layout_below="@+id/ibtnmail"
+        android:layout_marginTop="10dp" />
+
+    <ImageButton
+        android:id="@+id/ibtnfacebook"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/messenger_bubble_large_white"
+        android:src="@drawable/messenger_button_white_bg_round"
+        android:onClick="viafb"/>
+
+    <TextView
+        android:id="@+id/contactbyfb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skontakuj się przez facebook'a"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ibtnfacebook"
+        android:layout_marginTop="10dp" />
+
+
+    <TextView
+        android:id="@+id/fb_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skontakuj się przez facebook'a"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ibtnfacebook"
+        android:visibility="gone"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skontakuj się przez facebook'a"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ibtnfacebook"
+        android:visibility="gone"
+        android:layout_marginTop="10dp" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_bookadd" >
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="344dp"
+            android:layout_height="463dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <EditText
+                android:id="@+id/author_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="Imię autora"
+                android:inputType="textPersonName"
+                android:textColor="@color/input_login"
+                android:textColorHint="@color/input_login_hint"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/author_sname"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="Nazwisko autora"
+                android:inputType="textPersonName"
+                android:textColor="@color/input_login"
+                android:textColorHint="@color/input_login_hint"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"/>
+
+            <EditText
+                android:id="@+id/book_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="Tytuł"
+                android:inputType="textPersonName"
+                android:textColor="@color/input_login"
+                android:textColorHint="@color/input_login_hint"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"/>
+
+            <EditText
+                android:id="@+id/book_category"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="Kategoria"
+                android:inputType="textPersonName"
+                android:textColor="@color/input_login"
+                android:textColorHint="@color/input_login_hint"
+                android:layout_marginBottom="30dp"
+                android:padding="10dp"/>
+
+            <Button
+                android:id="@+id/btnBookAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textColor="#ffffff"
+                android:textSize="17dp"
+                android:text="Dodaj Książkę"
+                android:onClick="onAddClick"/>
+
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

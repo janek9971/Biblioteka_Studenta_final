@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    // login
+    <color name="bg_login">#33FFFF</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="btn_login">#33FFFF</color>
+    <color name="btn_login_bg">#999999</color>
+
+    // register
+    <color name="bg_register">#0000CC</color>
+    <color name="input_register">#222222</color>
+    <color name="input_register_bg">#ffffff</color>
+    <color name="input_register_hint">#999999</color>
+    <color name="btn_logut_bg">#FF0033</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="lbl_name">#333333</color>
+    // book add
+    <color name="bg_bookadd">#c04000</color>
+
+
+    <color name="cardbg">#3F51B5</color>
+
+</resources>

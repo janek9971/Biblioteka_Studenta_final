@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Biblioteka Studenta</string>
+    <string name="about_program">O programie</string>
+
+    //facebook
+    <string name="facebook_app_id">219002335254784</string>
+    // login
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Hasło min. 8 znaków</string>
+    <string name="btn_login">ZALOGUJ</string>
+    <string name="btn_link_to_register">Nie masz konta? Zapisz się!</string>
+    // register
+    <string name="hint_name">Nick</string>
+    <string name="btn_register">ZAREJESTRUJ</string>
+    <string name="btn_logout">WYLOGUJ</string>
+    <string name="btn_link_to_login">Masz już konto? Zaloguj się!</string>
+    <string name="title_activity_home">HomeActivity</string>
+    // Home
+    <string name="welcome">Witaj</string>
+    <string name="btn_continue">Kontynuj do aplikacji</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="name">Imię i Nazwisko</string>
+    <string name="title_activity_main2">Menu Główne</string>
+
+
+</resources>

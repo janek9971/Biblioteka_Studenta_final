@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<group android:checkableBehavior="single">
+        <item
+            android:id="@+id/book_add"
+            android:icon="@drawable/ic_library_add_white_36dp"
+            android:title="Dodaj książkę" />
+
+    <item
+            android:id="@+id/book_list"
+            android:icon="@drawable/ic_list_white_36dp"
+            android:title="Lista książek" />
+
+         <item
+            android:id="@+id/settings"
+             android:icon="@drawable/ic_settings_white_36dp"
+            android:title="Ustawienia" />
+
+
+         <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout2"
+            android:title="Wyloguj" />
+
+
+
+    </group>
+
+
+</menu>
