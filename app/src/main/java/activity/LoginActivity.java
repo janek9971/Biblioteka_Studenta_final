@@ -133,7 +133,6 @@ public class LoginActivity extends AppCompatActivity implements Validator.Valida
             @Override
             public void onSuccess(LoginResult loginResult) {
 
-                Set<String> deniedPermissions = loginResult.getRecentlyDeniedPermissions();
                 //Pobranie jakie parametry z wymaganych zostały odrzucone przez użytkownika
                 Set<String> DeclinedPermissions = (AccessToken.getCurrentAccessToken().getDeclinedPermissions());
                 Set<String> Permissions = (AccessToken.getCurrentAccessToken().getPermissions());

@@ -51,7 +51,6 @@ public class Main2Activity extends AppCompatActivity implements NavigationView
 
     String fb_id;
     String email;
-    //String firstime = "first";
     String uid;
     String FBidfirst;
 
@@ -93,12 +92,13 @@ public class Main2Activity extends AppCompatActivity implements NavigationView
 
 
         HashMap<String, String> user = db.getUserDetails();
-// getting email, unique_id and fb_id from
+        // getting email, unique_id and fb_id from
         email = user.get("email");
         uid = user.get("uid");
         fb_id = user.get("fb_id");
-//Sprawdzenie czy email w SQLite jest taki sam jak Email pobrany pobrany w poprzedniej aktywności
-// przez Facebook SDK oraz czy fb_id jest puste
+        //Sprawdzenie czy email w SQLite jest taki sam jak Email pobrany pobrany w poprzedniej
+        // aktywności
+        // przez Facebook SDK oraz czy fb_id jest puste
         if (email.equals(FEmail) && fb_id.isEmpty()) {
             //SaveUserDetails wykonuje się tylko raz podczas łączenia istniejacego konta z
             // facebookiem
@@ -172,13 +172,6 @@ public class Main2Activity extends AppCompatActivity implements NavigationView
             case R.id.logout:
                 logoutUser();
                 intent = new Intent(Main2Activity.this, LoginActivity.class);
-                if (fb_id != null) {
-                    intent.putExtra("fb_id", fb_id);
-                } else {
-                    intent.putExtra("fb_id", FBidfirst);
-
-                }
-                intent.putExtra("fbemail", email);
                 startActivity(intent);
 
                 finish();
